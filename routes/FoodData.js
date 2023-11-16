@@ -1,5 +1,6 @@
 import express from "express";
-import { food_category,food_item } from "../models/User.js";
+import { food_category} from "../models/food_category.js";
+import {food_item} from "../models/food_items.js";
 
 export const router2 = express.Router()
 
